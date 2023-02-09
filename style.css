@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0f;
+}
+.portrait-container {
+    display: flex;
+}
+.portrait-container img {
+    margin: 10px auto;
+    width: 120px;
+    border: 2px solid #8F9094;
+    border-radius: 50%;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+.info-container p {
+    margin: 0 auto;
+    color: #8F9094;
+    font-size: 2rem;
+    font-weight: bold;
+}
